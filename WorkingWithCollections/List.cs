@@ -28,7 +28,7 @@ namespace WorkingWithCollections
                 Count++;
                 Console.WriteLine(word);
             }
-            Console.WriteLine(Count);
+            Console.WriteLine("\n Слов: " + Count);
         }
     }
 }
