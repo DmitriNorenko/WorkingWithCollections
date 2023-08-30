@@ -23,7 +23,7 @@ namespace WorkingWithCollections
 
             words.AddRange(arrayWordds);
 
-            foreach(string word in words) 
+            foreach (string word in words)
             {
                 Count++;
                 Console.WriteLine(word);

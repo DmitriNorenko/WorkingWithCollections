@@ -17,7 +17,7 @@ namespace WorkingWithCollections
 
             string[] arrayWordds = noPunctuationText.Split(' ');
 
-            for(int i = 0; i < arrayWordds.Length; i++)
+            for (int i = 0; i < arrayWordds.Length; i++)
             {
                 words.AddFirst(arrayWordds[i]);
             }
