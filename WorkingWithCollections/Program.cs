@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            List.ReadList();
+            Console.ReadKey();
+            LinkedList.ReadLinkedList();
         }
     }
 }
