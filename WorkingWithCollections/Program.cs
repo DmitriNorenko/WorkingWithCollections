@@ -14,6 +14,8 @@ namespace WorkingWithCollections
             LinkedList.ReadLinkedList();
             Console.WriteLine("\n Время: " + stopWatch2.Elapsed.TotalMilliseconds);
             Console.ReadKey();
+            List.SearchWord();
+            Console.ReadKey();
         }
     }
 }

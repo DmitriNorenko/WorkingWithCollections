@@ -15,11 +15,11 @@ namespace WorkingWithCollections
             string Text = File.ReadAllText(@"/Users/dima/Downloads/text.txt");
             var noPunctuationText = new string(Text.Where(c => !char.IsPunctuation(c)).ToArray());
 
-            string[] arrayWordds = noPunctuationText.Split(' ');
+            string[] arrayWords = noPunctuationText.Split(' ');
 
-            for (int i = 0; i < arrayWordds.Length; i++)
+            for (int i = 0; i < arrayWords.Length; i++)
             {
-                words.AddFirst(arrayWordds[i]);
+                words.AddFirst(arrayWords[i]);
             }
 
             foreach (string word in words)
